@@ -1,0 +1,5 @@
+
+name: MobBoss Plugin
+main: com.athcraft.mobboss.MobBossPlugin
+version: 0.1
+
