@@ -6,13 +6,19 @@
  */
 package com.athcraft.mobboss;
 
+import org.bukkit.plugin.PluginDescriptionFile;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class MobBossPlugin extends JavaPlugin {
 
-    public void onEnable() {}
-    public void onDisable() {}
+    public void onEnable() {
+        PluginDescriptionFile descFile = this.getDescription();
+        System.out.println(descFile.getName() + " version " + descFile.getVersion() + " is enabled!");
+    }
 
+
+    public void onDisable() {
+    }
 
 }
 

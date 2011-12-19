@@ -1,0 +1,18 @@
+MobBoss - A mob limiting and controlling plugin for Bukkit.
+
+Initial Goals
+ 1 - Limit the number of mobs while maintaining or increasing mob interaction
+ 2 - Offer maximum customizability both in config and in-game
+ 3 - Differentiate different types of mobs
+ 4 - Class mobs into management groups (ex. aggressive/passive/water/other) - other would contain non-domestic non-aggressive mobs like squid
+ 5 - Be able to control mobs on a per type basis - ex set params for squid or cows
+ 6 - Remove non-domestic mobs at a distance from players
+ 7 - Prevent spawns at a distance from players
+ 8 - When checking distance differentiate between x,y and z coordinates - vertical distances can be significantly lower
+ 9 - Possibly allow LWC type protection of domestic animals - configurable quantity - cannot be used on monsters
+10 - Set animal protection by permissions
+11 - Configurable spawn and protection parameters - config.yml and in-game
+12 - Proposed plugin name MobBoss
+
+Developed for http://athcraft.com
+
